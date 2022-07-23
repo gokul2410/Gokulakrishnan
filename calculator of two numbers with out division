@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyOm7fTVVAIVk+C1lZXlhG1E",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gokul2410/Gokulakrishnan/blob/main/calculator%20of%20two%20numbers%20with%20out%20division\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eGGjFDnqwha8",
+        "outputId": "b32876b4-a902-4cee-8835-db1f07791804"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']\n"
+          ]
+        }
+      ],
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#variables as user input\n",
+        "a=input(\"Enter first number\")\n",
+        "b=input(\"Enter second number\")\n",
+        "x=(int(a)+int(b))\n",
+        "y=(int(a)-int(b))\n",
+        "z=(int(a)*int(b))\n",
+        "print(\"By adding your numbers: \",x)\n",
+        "print(\"By subracting your numbers:\",y)\n",
+        "print(\"product of your number\",z )\n",
+        "print(\"I cant divide because its not programmed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IKUCcEiKxM2P",
+        "outputId": "76ed466e-e4f5-4158-bdc9-0df6671b3dab"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number26\n",
+            "Enter second number30\n",
+            "By adding your numbers:  56\n",
+            "By subracting your numbers: -4\n",
+            "product of your number 780\n",
+            "I cant divide because its not programmed\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
